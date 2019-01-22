@@ -4,7 +4,7 @@ katz_deli = []
 
 def line(katz_deli)
   deli_line = []
-  if array.length > 0
+  if katz_deli.length > 0
     num = 1
     array.each do |name|
       deli_line.push("#{num}. #{name}")
