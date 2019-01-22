@@ -24,4 +24,3 @@ def now_serving(num, name)
       end
       puts "#{message}"
     end
-  end
