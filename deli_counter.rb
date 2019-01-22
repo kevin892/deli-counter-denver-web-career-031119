@@ -24,7 +24,7 @@ def take_a_number(num, name)
   return name, spot
 end
 
-ddef now_serving(line)
+def now_serving(line)
   if line.length == 0 # could say: "if deli.empty?"
     puts"There is nobody waiting to be served!"
   else
