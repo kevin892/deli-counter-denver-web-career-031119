@@ -6,7 +6,7 @@ def line(katz_deli)
   deli_line = []
   if katz_deli.length > 0
     num = 1
-    array.each do |name|
+    katz_deli.each do |name|
       deli_line.push("#{num}. #{name}")
       num += 1
     end
